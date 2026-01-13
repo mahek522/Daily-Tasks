@@ -1,0 +1,92 @@
+{
+    "battery_0_to_10": [
+        {
+            "Hub": "Downtown",
+            "Vehicle-ID": "1",
+            "Model": "Tesla Model 3",
+            "Battery": 5,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_10_to_20": [
+        {
+            "Hub": "Downtown",
+            "Vehicle-ID": "2",
+            "Model": "Audi e-tron",
+            "Battery": 15,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_20_to_30": [
+        {
+            "Hub": "Downtown",
+            "Vehicle-ID": "3",
+            "Model": "Hyundai Kona EV",
+            "Battery": 25,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_30_to_40": [
+        {
+            "Hub": "Downtown",
+            "Vehicle-ID": "4",
+            "Model": "MG ZS EV",
+            "Battery": 35,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_40_to_50": [
+        {
+            "Hub": "Downtown",
+            "Vehicle-ID": "5",
+            "Model": "Tata Nexon EV",
+            "Battery": 45,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_50_to_60": [
+        {
+            "Hub": "Downtown",
+            "Vehicle-ID": "6",
+            "Model": "Nissan Leaf",
+            "Battery": 55,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_60_to_70": [
+        {
+            "Hub": "Downtown",
+            "Vehicle-ID": "7",
+            "Model": "Chevrolet Bolt",
+            "Battery": 65,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_70_to_80": [
+        {
+            "Hub": "Airport",
+            "Vehicle-ID": "8",
+            "Model": "Jaguar I-Pace",
+            "Battery": 75,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_80_to_90": [
+        {
+            "Hub": "Airport",
+            "Vehicle-ID": "9",
+            "Model": "Ford Mustang Mach-E",
+            "Battery": 85,
+            "Type": "ElectricCar"
+        }
+    ],
+    "battery_90_to_100": [
+        {
+            "Hub": "Airport",
+            "Vehicle-ID": "10",
+            "Model": "Tesla Model Y",
+            "Battery": 95,
+            "Type": "ElectricCar"
+        }
+    ]
+}

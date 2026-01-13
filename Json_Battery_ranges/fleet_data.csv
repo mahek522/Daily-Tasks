@@ -1,0 +1,11 @@
+Fleet-Hub,Vehicle ID,Model,Battery,Type
+Downtown,1,Tesla Model 3,5,ElectricCar
+Downtown,2,Audi e-tron,15,ElectricCar
+Downtown,3,Hyundai Kona EV,25,ElectricCar
+Downtown,4,MG ZS EV,35,ElectricCar
+Downtown,5,Tata Nexon EV,45,ElectricCar
+Downtown,6,Nissan Leaf,55,ElectricCar
+Downtown,7,Chevrolet Bolt,65,ElectricCar
+Airport,8,Jaguar I-Pace,75,ElectricCar
+Airport,9,Ford Mustang Mach-E,85,ElectricCar
+Airport,10,Tesla Model Y,95,ElectricCar
