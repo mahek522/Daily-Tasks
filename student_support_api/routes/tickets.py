@@ -1,18 +1,31 @@
+from utils.logger import logger
 from fastapi import Depends, HTTPException
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from utils.jwt_handler import decode_token
-from utils.logger import logger
 
 security = HTTPBearer()
 
 def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
+    raw_token = credentials.credentials
+
+    print("RAW TOKEN:", raw_token)  # DEBUG
+
+    # 🔥 FIX: remove 'Bearer ' if present
+    if raw_token.startswith("Bearer "):
+        token = raw_token.split(" ")[1]
+    else:
+        token = raw_token
+
+    print("CLEAN TOKEN:", token)  # DEBUG
+
     try:
-        token = credentials.credentials
-        user = decode_token(token)
-        return user
-    except:
+        payload = decode_token(token)
+        return payload
+    except Exception as e:
+        print("JWT ERROR:", str(e))
         raise HTTPException(status_code=401, detail="Invalid token")
     
+            
 from fastapi import APIRouter, Depends, HTTPException
 from models.ticket import tickets_db
 from schemas.ticket import TicketCreate, TicketUpdate
