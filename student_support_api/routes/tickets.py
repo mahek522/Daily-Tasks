@@ -10,7 +10,6 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(securit
 
     print("RAW TOKEN:", raw_token)  # DEBUG
 
-    # 🔥 FIX: remove 'Bearer ' if present
     if raw_token.startswith("Bearer "):
         token = raw_token.split(" ")[1]
     else:
